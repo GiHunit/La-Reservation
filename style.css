@@ -3,7 +3,7 @@ body {
     font-family: *roboto*,Georgia;
     font-size: 18px;
         
-        margin: 35px 45px 45px;   /*a verifier */
+        margin: 50px 305px 305px 305px;   /*a verifier */
 }
     
     nav img {
@@ -34,3 +34,9 @@ li {
     color:rgb(11, 96, 206);
     
 }
+
+.see {
+    display: flex;
+    
+    
+    }
