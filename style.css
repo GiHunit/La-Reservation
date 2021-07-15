@@ -71,8 +71,16 @@ li {
     justify-content: space-around;
     padding: 0 0 0 0;
 }
+.bedroom {
+width: 237px;
+height: 118px;
+}
+
+/*Etoiles*/
 
 
+.fa-star.gold {
+	color: blue;
 
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
