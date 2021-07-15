@@ -40,9 +40,10 @@ li {
 
 }
 .logo {
-display: flex;
-align-items: center;
-}
+    display: flex;
+    align-items: center;
+    }
+
 .barre {
     display: flex;
     align-items:center;
@@ -51,4 +52,42 @@ align-items: center;
 }
 .rere {
     background-color: #0166fc;
+
+    border-radius: 0px 15px 15px  0;
 }
+.kara {
+    font-size: 16px;
+    font-weight: bold;
+}
+.kara2 {
+    font-weight: bold;
+    font-color: rgb(255, 255, 255) ;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color:black;
+  }
+
+  .styled {    /*button recherche*/
+    border-radius: 0 15px 0 15px 0 ;
+    line-height: 2.5;
+    padding: 1px 35px 0 35px ; 
+  
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+     border-radius: 0px 20px 20px 0px;
+    background-color: #0166fc;
+      
+.styled:hover {
+    background-color: blue;
+}
+
