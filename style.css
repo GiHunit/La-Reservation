@@ -37,6 +37,18 @@ li {
 
 .see {
     display: flex;
-    
-    
-    }
+
+}
+.logo {
+display: flex;
+align-items: center;
+}
+.barre {
+    display: flex;
+    align-items:center;
+    font-size: 25px;
+    background-color: darkorchid;
+}
+.rere {
+    background-color: darkolivegreen;
+}
