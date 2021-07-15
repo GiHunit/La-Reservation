@@ -72,12 +72,22 @@ li {
     padding: 0 0 0 0;
 }
 .bedroom {
-width: 237px;
-height: 118px;
+    height: 100px;
+    
+
+#hebergement {
+
+
+
+background-color: blueviolet;
+padding: 5%;
+
+
 }
 
-/*Etoiles*/
 
+/*Etoiles*/
+jjj
 
 .fa-star.gold {
 	color: blue;
