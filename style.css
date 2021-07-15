@@ -1,6 +1,9 @@
 
 body {
     font-family: *roboto*,Georgia;
+    font-size: 18px;
+        
+        margin: 35px 45px 45px;   /*a verifier */
 }
     
     nav img {
@@ -11,4 +14,23 @@ body {
     
 H1 {
     font-weight: bold;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    
+}
+nav ul {
+    display:flex;
+    list-style: none;
+}
+nav li {
+    margin-right: 73px;
+    display:flex;
+
+}
+li {
+    color:rgb(11, 96, 206);
+    
 }
