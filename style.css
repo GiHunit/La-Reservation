@@ -84,40 +84,34 @@ padding: 5%;
 
 
 }
-
-
-/*Etoiles*/
-jjj
-
-.fa-star.gold {
-	color: blue;
-
-
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color:black;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color:black;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color:black;
-  }
-
-  .styled {    /*button recherche*/
-    border-radius: 0 15px 0 15px 0 ;
-    line-height: 2.5;
-    padding: 1px 35px 0 35px ; 
-  
-    font-size: 1rem;
-    text-align: center;
-    color: white;
-     border-radius: 0px 20px 20px 0px;
-    background-color: #0166fc;
-      
-.styled:hover {
-    background-color: blue;
+h2 {
+height: 50px;
+width: 40px;
+   border: 5px solid blueviolet;
+   background-color: cadetblue;
 }
 
+.try {
+    color: fuchsia;
+    font-weight: 200px;
+}
+.fa_custom {
+    font-weight: 200px;
+    color: gold;
+    }
+    .fa fa-star {
+        color: green;
+        font-weight: 200px;
+
+    }
+}
+.fa fa-star {
+    color: deeppink;
+}
+.fa-star.gold {
+	color: rgb(28, 115, 245)
+}
+.stars {
+color:rgb(179, 208, 250);
+
+}
