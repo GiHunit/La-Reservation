@@ -41,28 +41,11 @@ li {
 }
 .logo {
     display: flex;
-    align-items: center;
+    align-items: center
     }
 
-.barre {
-    display: flex;
-    align-items:center;
-    font-size: 25px;
-    background-color: darkorchid;
-}
-.rere {
-    background-color: #0166fc;
 
-    border-radius: 0px 15px 15px  0;
-}
-.kara {
-    font-size: 16px;
-    font-weight: bold;
-}
-.kara2 {
-    font-weight: bold;
-    font-color: rgb(255, 255, 255) ;
-}
+
 
 .col {
     font-size: 24px;
@@ -71,47 +54,9 @@ li {
     justify-content: space-around;
     padding: 0 0 0 0;
 }
-.bedroom {
-    height: 100px;
-    
-
-#hebergement {
 
 
 
-background-color: blueviolet;
-padding: 5%;
-
-
-}
-h2 {
-height: 50px;
-width: 40px;
-   border: 5px solid blueviolet;
-   background-color: cadetblue;
-}
-
-.try {
-    color: fuchsia;
-    font-weight: 200px;
-}
-.fa_custom {
-    font-weight: 200px;
-    color: gold;
-    }
-    .fa fa-star {
-        color: green;
-        font-weight: 200px;
-
-    }
-}
-.fa fa-star {
-    color: deeppink;
-}
-.fa-star.gold {
-	color: rgb(28, 115, 245)
-}
-.stars {
-color:rgb(179, 208, 250);
-
-}
+            .bedroom { height: 100px;}
+                      .fa-star.gold { color: rgb(28, 115, 245) }
+                                    .stars {color:rgb(179, 208, 250);}
