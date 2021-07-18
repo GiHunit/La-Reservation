@@ -62,21 +62,7 @@ flex-direction: column;
 justify-content: center;
 text-align: center;
 margin: 5px;
-
-
 }
-
-.information {
-height: 50px;
-width: 500px;
-    border: solid 2px blueviolet;
-    
-    display: flex;
-}
-
-
-
-
 
 .col {
     font-size: 24px;
@@ -87,36 +73,36 @@ width: 500px;
 }
 
 
-/*  mise en place de la premiere image model -------------largeur image*/
-.bloc {
-    border:solid black 2px;
-    width: 880px;
-    height: 623px;
-    background-color: rgb(212, 211, 211);
+
+
+.information {   /*   flex i + plus de 500 logements */
+    height: 50px;
+    width: 500px;
+        border: solid 2px rgb(110, 27, 27);
+        
+        display: flex;
+    }
     
-}
 
 
-
-.case {
-
-    border: solid 4px rgb(41, 38, 44);
-    width: 246px;
-    border: solid 4px rgb(255, 255, 255);
-    border-radius: 35px;
-    
-}
-
-
-
-.one {
-
-height: 115px;
-width: 246px;
-border-radius: 35px;
+    /*  *************** SECTION    */
+.cadre {border: rgb(3, 255, 24) solid 5px;
+width: 880px;
+height: 625px;
 
 }
-/* rating stars*/
-.etoiles { height: 100px;}
-                      .fa-star.gold { color: rgb(28, 115, 245) }
-                                    .stars {color:rgb(179, 208, 250);}
+.home {
+    width: 247px;
+    height: 115px;
+}
+.portrait {line-height: 1px;
+position:relative;
+left:10px;
+
+}
+
+.encad {
+    border: solid 5px rgb(85, 83, 83);
+ width: 247px;
+    height: 200px;
+}
