@@ -1,11 +1,15 @@
 
 body {
     font-family: *roboto*,Georgia;
-    font-size: 18px;
+    
         
         margin: 50px 305px 305px 305px;   /*a verifier */
 }
-    
+
+
+
+
+
     nav img {
 
     width: 97px;
@@ -83,7 +87,36 @@ width: 500px;
 }
 
 
+/*  mise en place de la premiere image model -------------largeur image*/
+.bloc {
+    border:solid black 2px;
+    width: 880px;
+    height: 623px;
+    background-color: rgb(212, 211, 211);
+    
+}
 
-            .bedroom { height: 100px;}
+
+
+.case {
+
+    border: solid 4px rgb(41, 38, 44);
+    width: 246px;
+    border: solid 4px rgb(255, 255, 255);
+    border-radius: 35px;
+    
+}
+
+
+
+.one {
+
+height: 115px;
+width: 246px;
+border-radius: 35px;
+
+}
+/* rating stars*/
+.etoiles { height: 100px;}
                       .fa-star.gold { color: rgb(28, 115, 245) }
                                     .stars {color:rgb(179, 208, 250);}
