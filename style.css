@@ -110,6 +110,7 @@ margin: 5px;
 width: 880px;
 height: 625px;
 background-color: #0feee3;
+position: absolute;
 
 display: flex;
 	flex-direction: row;
@@ -143,3 +144,13 @@ left:17px;
 
 
 /* ****************************** SECTION 2 ********************************************* */
+.pop {
+    border: solid 2px grey;
+    width: 419px;
+    height: 625px;
+    position: relative;
+        float: left;
+     left:700px;
+     top: -435px;
+     margin-left:-36px;
+}
