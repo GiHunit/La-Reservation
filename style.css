@@ -110,7 +110,7 @@ margin: 5px;
 width: 880px;
 height: 625px;
 background-color: #0feee3;
-position: absolute;
+
 
 display: flex;
 	flex-direction: row;
@@ -164,7 +164,6 @@ display: flex;
 flex-wrap: wrap;
 position: relative;
 text-align:left;
-overflow-wrap: break-word;
 }
 
 .beach {
@@ -178,6 +177,30 @@ overflow-wrap: break-word;
     flex-wrap: wrap;
     flex-direction: column;
     left: 135px;
-    overflow-wrap: break-word;
     
+}
+.blabla {
+
+    font-size: 39px;
+}
+.footer {
+
+    margin-bottom: 150px;
+}
+
+.pictu1 {
+width: 100px;
+height: 150px;
+}
+.pictu2 {
+    width: 100px;
+    height: 150px;
+}
+.pictu3 {
+width: 100px;
+height: 120px;
+}
+.pictu4 {
+    width: 120px;
+    height: 130px;
 }
