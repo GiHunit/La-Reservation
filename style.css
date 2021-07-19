@@ -109,7 +109,13 @@ margin: 5px;
 .cadre {border: rgb(234, 238, 234) solid 5px;
 width: 880px;
 height: 625px;
-background-color: #f2f2f2;
+background-color: #0feee3;
+display: flex;
+flex-wrap: wrap ;
+align-content:space-around;
+align-items: center;
+justify-content: space-evenly;
+
 
 }
 .home {
