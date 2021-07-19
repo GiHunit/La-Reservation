@@ -86,23 +86,48 @@ margin: 5px;
 
 
     /*  *************** SECTION    */
+
+
+
+
+
+    /* rating stars*/
+.stars { 
+    font-size: 13px;
+    height: 40px;
+    position: relative;
+    left: 17px;
+}
+
+                      .fa-star.gold { color: rgb(28, 115, 245) }
+                                    .stars {color:rgb(179, 208, 250);
+                                    
+                                    }
+
+
+                                    /* ***********  etoile  */
 .cadre {border: rgb(3, 255, 24) solid 5px;
 width: 880px;
 height: 625px;
 
 }
 .home {
-    width: 247px;
+    width: 244px;
     height: 115px;
+    border-radius: 15px;
 }
 .portrait {line-height: 1px;
-position:relative;
-left:10px;
+    position: relative;
+left:17px;
 
 }
 
 .encad {
-    border: solid 5px rgb(85, 83, 83);
- width: 247px;
-    height: 200px;
+    border: solid 10px rgb(223, 3, 3);
+    border-radius: 15%;
+ width: 243px;
+    height: 196px;
+    position:absolute;
+    z-index: 2;
+    
 }
