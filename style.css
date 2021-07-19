@@ -110,12 +110,15 @@ margin: 5px;
 width: 880px;
 height: 625px;
 background-color: #0feee3;
+
 display: flex;
-flex-wrap: wrap ;
-align-content:space-around;
-align-items: center;
-justify-content: space-evenly;
-margin: -55px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+
 
 }
 .home {
@@ -135,6 +138,8 @@ left:17px;
     width: 243px;
     height: 196px;
     
-    z-index: 2;
+    
+
+
     
 }
