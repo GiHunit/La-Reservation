@@ -157,8 +157,8 @@ left:17px;
 }
 .zone2 {
 
-border: rgb(255, 251, 0) solid 3px;
-width: 341px;
+border: rgb(247, 243, 21) solid 3px;
+width: 100px;
 height: 145px;
 display: flex;
 flex-wrap: wrap;
@@ -203,4 +203,12 @@ height: 120px;
 .pictu4 {
     width: 120px;
     height: 130px;
+}
+
+.ActMarseille {
+
+border: solid 4px blue;
+width: 1341px;
+height: 453px;
+
 }
