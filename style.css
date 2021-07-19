@@ -106,9 +106,10 @@ margin: 5px;
 
 
                                     /* ***********  etoile  */
-.cadre {border: rgb(3, 255, 24) solid 5px;
+.cadre {border: rgb(234, 238, 234) solid 5px;
 width: 880px;
 height: 625px;
+background-color: #f2f2f2;
 
 }
 .home {
@@ -123,11 +124,11 @@ left:17px;
 }
 
 .encad {
-    border: solid 10px rgb(223, 3, 3);
+    border: solid 10px rgb(212, 200, 200);
     border-radius: 15%;
- width: 243px;
+    width: 243px;
     height: 196px;
-    position:absolute;
+    
     z-index: 2;
     
 }
