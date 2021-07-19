@@ -189,26 +189,33 @@ text-align:left;
 }
 
 .pictu1 {
-width: 100px;
-height: 150px;
+width: 297px;
+height: 387px;
+object-fit: cover;
 }
 .pictu2 {
-    width: 100px;
-    height: 150px;
+    width: 306px;
+    height: 184px;
+    object-fit: cover;
 }
 .pictu3 {
 width: 100px;
 height: 120px;
+object-fit: cover;
 }
 .pictu4 {
-    width: 120px;
-    height: 130px;
+    width: 306px;
+    height: 197px;
+    object-fit: cover;
 }
 
-.ActMarseille {
+.gallery1Contener {
 
-border: solid 4px blue;
+border: solid 6px blue;
 width: 1341px;
 height: 453px;
-
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+justify-content: space-around;
 }
