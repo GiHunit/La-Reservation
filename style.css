@@ -144,8 +144,8 @@ left:17px;
 
 
 /* ****************************** SECTION 2 ********************************************* */
-.pop {
-    border: solid 2px grey;
+.zone {
+    border: solid 5px rgb(0, 238, 40);
     width: 419px;
     height: 625px;
     position: relative;
@@ -153,4 +153,31 @@ left:17px;
      left:700px;
      top: -435px;
      margin-left:-36px;
+     display: flex;
+}
+.zone2 {
+
+border: rgb(255, 251, 0) solid 3px;
+width: 341px;
+height: 145px;
+display: flex;
+flex-wrap: wrap;
+position: relative;
+text-align:left;
+overflow-wrap: break-word;
+}
+
+.beach {
+    width: 128px;
+    height: 135px;
+}
+
+.paragraph-right {
+    position: absolute;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 135px;
+    overflow-wrap: break-word;
+    
 }
