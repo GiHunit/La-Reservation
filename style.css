@@ -1,17 +1,9 @@
 
-
-
-
-
 body {
     font-family: *roboto*,Georgia;
-    height: 100vh;
-    display:flex;
-    flex-direction:column;
+    
         
-     margin: 50px 305px 305px 305px;   /*a verifier */
-
-
+        margin: 50px 305px 305px 305px;   /*a verifier */
 }
 
 
@@ -117,14 +109,14 @@ margin: 5px;
 .cadre {border: rgb(234, 238, 234) solid 5px;
 width: 880px;
 height: 625px;
-background-color: #f2f2f2;
+background-color: #0feee3;
+
 display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
-    flex-direction: center;
 
 
 
@@ -145,126 +137,9 @@ left:17px;
     border-radius: 15%;
     width: 243px;
     height: 196px;
-    margin: 15px;
-}
-
-
-/* ****************************** SECTION 2 ********************************************* */
-.zone {
-    border: solid 5px rgb(255, 255, 255);
-    background-color: #f2f2f2;
-    width: 419px;
-    height: 625px;
-    position: relative;
-        float: left;
-     left:700px;
-     top: -495px;
-     margin-left:-36px;
-     display: flex;
-}
-.zone2 {
-
-border: rgb(187, 187, 179) solid 3px;
-width: 350px;
-height: 145px;
-display: flex;
-flex-wrap: wrap;
-position: relative;
-text-align:left;
-}
-
-.beach {
-    width: 128px;
-    height: 135px;
-    object-fit: cover;
-
-}
-
-.paragraph-right {
-    position: absolute;
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    left: 135px;
     
-}
-.blabla {
-
-    font-size: 39px;
-}
-.footer {
-
-    margin-bottom: 150px;
-}
-
-.pictu1 {
-width: 297px;
-height: 387px;
-object-fit: cover;
-border-radius: 20px;
-
-}
-.pictu2 {
-    width: 306px;
-    height: 184px;
-    object-fit: cover;
-}
-.pictu3 {
-width: 100px;
-height: 120px;
-object-fit: cover;
-}
-.pictu4 {
-    width: 306px;
-    height: 197px;
-    object-fit: cover;
     
-}
-
-.gallery1Contener {
-
-border: solid 6px rgb(244, 244, 247);
-width: 1354px;
-height: 458px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-justify-items: center;
-
-}
-
-.boo {
-    margin:5px;
-   
-}
-.item5{
-
-border-radius: 25px 25px 0px 0px;
-height: 440px;
-width:  300px;
--webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
-border-radius: 15px;
-
-}
-
-.liste-service{
-list-style-type: none;
-}
-
-.contenu {
-border: solid gray 4px;
-    flex: 1 0 auto;
-}
 
 
-footer {
-    flex-shrink: 0;
-    border-top: 1px solid red;
-    width: 100%;
-    background: rgb(235, 222, 224);
-    color: #333;
-}
-.contenu-footer {
-    display: flex;
+    
 }
