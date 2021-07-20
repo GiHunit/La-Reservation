@@ -110,14 +110,13 @@ margin: 5px;
 width: 880px;
 height: 625px;
 background-color: #0feee3;
-
-
 display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+    flex-direction: center;
 
 
 
@@ -138,8 +137,7 @@ left:17px;
     border-radius: 15%;
     width: 243px;
     height: 196px;
-    
-    
+    margin: 15px;
 }
 
 
@@ -151,14 +149,14 @@ left:17px;
     position: relative;
         float: left;
      left:700px;
-     top: -435px;
+     top: -495px;
      margin-left:-36px;
      display: flex;
 }
 .zone2 {
 
 border: rgb(247, 243, 21) solid 3px;
-width: 100px;
+width: 350px;
 height: 145px;
 display: flex;
 flex-wrap: wrap;
@@ -192,6 +190,8 @@ text-align:left;
 width: 297px;
 height: 387px;
 object-fit: cover;
+border-radius: 20px;
+
 }
 .pictu2 {
     width: 306px;
@@ -213,17 +213,26 @@ object-fit: cover;
 .gallery1Contener {
 
 border: solid 6px blue;
-width: 1341px;
-height: 453px;
+width: 1354px;
+height: 458px;
 display: flex;
 flex-wrap: wrap;
-margin: 10px;
+justify-content: center;
+justify-items: center;
+
 }
 
+.boo {
+    margin:5px;
+   
+}
+.item5{
 
-.item5 {
+border-radius: 25px 25px 0px 0px;
+height: 440px;
+width:  300px;
+-webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
+border-radius: 15px;
 
-
-    border: solid blueviolet 2px;
-    height: 449px;
-    width: 303px; }
+}
