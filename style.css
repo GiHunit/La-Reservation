@@ -223,7 +223,7 @@ object-fit: cover;
 
 .gallery1Contener {
 
-border: solid 6px blue;
+border: solid 6px rgb(244, 244, 247);
 width: 1354px;
 height: 458px;
 display: flex;
@@ -258,10 +258,13 @@ border: solid gray 4px;
 }
 
 
-.footer {
+footer {
     flex-shrink: 0;
     border-top: 1px solid red;
     width: 100%;
     background: rgb(235, 222, 224);
     color: #333;
+}
+.contenu-footer {
+    display: flex;
 }
