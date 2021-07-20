@@ -1,9 +1,17 @@
 
+
+
+
+
 body {
     font-family: *roboto*,Georgia;
-    
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
         
-        margin: 50px 305px 305px 305px;   /*a verifier */
+     margin: 50px 305px 305px 305px;   /*a verifier */
+
+
 }
 
 
@@ -109,7 +117,7 @@ margin: 5px;
 .cadre {border: rgb(234, 238, 234) solid 5px;
 width: 880px;
 height: 625px;
-background-color: #0feee3;
+background-color: #f2f2f2;
 display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -143,7 +151,8 @@ left:17px;
 
 /* ****************************** SECTION 2 ********************************************* */
 .zone {
-    border: solid 5px rgb(0, 238, 40);
+    border: solid 5px rgb(255, 255, 255);
+    background-color: #f2f2f2;
     width: 419px;
     height: 625px;
     position: relative;
@@ -155,7 +164,7 @@ left:17px;
 }
 .zone2 {
 
-border: rgb(247, 243, 21) solid 3px;
+border: rgb(187, 187, 179) solid 3px;
 width: 350px;
 height: 145px;
 display: flex;
@@ -167,6 +176,8 @@ text-align:left;
 .beach {
     width: 128px;
     height: 135px;
+    object-fit: cover;
+
 }
 
 .paragraph-right {
@@ -235,4 +246,22 @@ width:  300px;
 box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
 border-radius: 15px;
 
+}
+
+.liste-service{
+list-style-type: none;
+}
+
+.contenu {
+border: solid gray 4px;
+    flex: 1 0 auto;
+}
+
+
+.footer {
+    flex-shrink: 0;
+    border-top: 1px solid red;
+    width: 100%;
+    background: rgb(235, 222, 224);
+    color: #333;
 }
