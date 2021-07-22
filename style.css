@@ -1,14 +1,15 @@
 
+* {
+    box-sizing: border-box;
+}
 body {
-    font-family: *roboto*,Georgia;
-    
-        
-        margin: 50px 305px 305px 305px;   /*a verifier */
+    font-family: roboto,Georgia;
+    padding: 30px 100px 30px 100px;   /*a verifier */
 }
 
-
-
-
+img {
+    width: 100%;
+}
 
     nav img {
 
@@ -106,40 +107,60 @@ margin: 5px;
 
 
                                     /* ***********  etoile  */
-.cadre {border: rgb(234, 238, 234) solid 5px;
-width: 880px;
-height: 625px;
-background-color: #0feee3;
 
-display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
+.accommodation-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.last-accommodation-container {
+    flex: 3;
+    background-color: #f2f2f2;
+    margin-right: 50px;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.cadre-last-accommodation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
 
 
+.item-last-accommodation {
+    border: 10px solid white;
+    border-radius: 25px;
+    width: 350px;
+    margin-bottom:  20px;
+}
+
+.item-img-accommodation {
 
 }
-.home {
-    width: 244px;
-    height: 115px;
-    border-radius: 15px;
+
+.item-last-accommodation img {
+    border-radius: 25px;
+    height: 150px;
+    object-fit: cover;
 }
+
+
+
+.popular-accommodation-container {
+    flex: 1;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+}
+
+
 .portrait {line-height: 1px;
     position: relative;
 left:17px;
 
 }
 
-.encad {
-    border: solid 10px rgb(212, 200, 200);
-    border-radius: 15%;
-    width: 243px;
-    height: 196px;
-    
-    
 
-
-    
+.zone2 {
+    width: 244px;
 }
