@@ -135,9 +135,6 @@ margin: 5px;
     margin-bottom:  20px;
 }
 
-.item-img-accommodation {
-
-}
 
 .item-last-accommodation img {
     border-radius: 25px;
@@ -162,5 +159,13 @@ left:17px;
 
 
 .zone2 {
+    object-fit: cover;
+
     width: 244px;
+    display: flex;
+}
+.paragraph-right {
+
+    display: flex;
+    flex-direction: column;
 }
