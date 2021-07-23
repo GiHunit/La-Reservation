@@ -150,8 +150,11 @@ margin: 5px;
 
 .popular-accommodation-container {
     flex: 1;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     border-radius: 20px;
+    border: orangered solid 2px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -163,19 +166,17 @@ left:17px;
 
 
 .zone {
-    border: gold solid 4px;
+    border: gold solid 6px;
     object-fit: cover;
     width: 244px;
     display: flex;
     flex-direction: column;
-
+    margin: 10px;
 
 }
 
 .zone2 {
    
-border: blue solid 4px;
-
-
-
+border: rgb(3, 196, 255) solid 5px;
+display: flex;
 }
