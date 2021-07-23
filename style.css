@@ -111,11 +111,12 @@ margin: 5px;
 .accommodation-container {
     display:flex;
     justify-content: space-between;
+    background-color: rgb(0, 255, 76);
 }
 
 .last-accommodation-container {
     flex: 3;
-    background-color: #f2f2f2;
+    background-color: #9e0505;
     margin-right: 50px;
     border-radius: 20px;
     padding: 25px;
@@ -125,6 +126,7 @@ margin: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
+    background-color: hotpink;
 }
 
 
@@ -133,6 +135,7 @@ margin: 5px;
     border-radius: 25px;
     width: 350px;
     margin-bottom:  20px;
+    background-color: lavender;
 }
 
 
@@ -140,6 +143,7 @@ margin: 5px;
     border-radius: 25px;
     height: 150px;
     object-fit: cover;
+
 }
 
 
@@ -158,14 +162,20 @@ left:17px;
 }
 
 
-.zone2 {
+.zone {
+    border: gold solid 4px;
     object-fit: cover;
-
     width: 244px;
     display: flex;
-}
-.paragraph-right {
-
-    display: flex;
     flex-direction: column;
+
+
+}
+
+.zone2 {
+   
+border: blue solid 4px;
+
+
+
 }
