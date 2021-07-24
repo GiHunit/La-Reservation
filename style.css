@@ -197,3 +197,12 @@ li {
     border: rgb(3, 196, 255) solid 5px;
     display: flex;
 }
+
+
+/* activity */
+
+.parentactivity img {
+    width: 25%;
+    height: 50%;
+    object-fit: cover;
+}
