@@ -201,8 +201,26 @@ li {
 
 /* activity */
 
-.parentactivity img {
-    width: 25%;
-    height: 50%;
-    object-fit: cover;
+.Activity {
+    /*parent*/
+    border: solid black 8px;
+    display: flex;
+    margin-left: 25px;
+}
+
+.blocActivites {
+    width: 100%;
+    height: 600px;
+}
+
+.Cubeactivites img {
+    background: cover;
+    width: 100%;
+    height: 530px;
+    border-radius: 25px;
+}
+
+.Cubeactivites {
+    width: 23%;
+    border-radius: 15px;
 }
