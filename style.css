@@ -4,7 +4,7 @@
 
 body {
     font-family: roboto, Georgia;
-    padding: 30px 100px 30px 100px;
+    padding: 30px 100px 0 100px;
     /*a verifier */
 }
 
@@ -208,4 +208,8 @@ li {
     border: solid grey 6px;
     background-color: grey;
     margin-inline: -110px;
+}
+
+.bloc footer {
+    display: flex;
 }
