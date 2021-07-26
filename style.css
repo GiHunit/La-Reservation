@@ -304,10 +304,10 @@
     .bloc {
         border: solid grey 6px;
         background-color: grey;
-        margin-inline: -110px;
+        margin: 25px;
         display: flex;
         justify-content: center;
-        justify-content: space-around;
+        align-content: flex-start;
         font-size: 18px;
         text-align: left;
         padding: -25px;
@@ -315,12 +315,15 @@
     
     .service1 {
         border: rgb(52, 240, 5) solid 4px;
+        width: 400px;
     }
     
     .assistance1 {
         border: solid goldenrod 4px;
+        width: 400px;
     }
     
     .propos1 {
         border: solid red 4px;
+        width: 400px;
     }
