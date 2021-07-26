@@ -306,6 +306,11 @@
         background-color: grey;
         margin-inline: -110px;
         display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        font-size: 18px;
+        text-align: left;
+        padding: -25px;
     }
     
     .service1 {
