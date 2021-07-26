@@ -299,31 +299,33 @@
     }
     /* *******************************************************  FOOTER  ************************************************* */
     
-    .contenu-footer {}
+    .foot-container {
+        background-color: rgba(144, 145, 236, 0.719);
+        width: 1600px;
+    }
     
-    .bloc {
-        border: solid grey 6px;
-        background-color: grey;
-        margin: 25px;
+    .footer {
+        width: 100%;
+    }
+    
+    .footer-heading {
         display: flex;
-        justify-content: center;
-        align-content: flex-start;
+        flex-direction: column;
+        margin-right: 4rem;
+    }
+    
+    .footer-heading h3 {
         font-size: 18px;
-        text-align: left;
-        padding: -25px;
     }
     
-    .service1 {
+    .footer-1 {
         border: rgb(52, 240, 5) solid 4px;
-        width: 400px;
     }
     
-    .assistance1 {
+    .footer-2 {
         border: solid goldenrod 4px;
-        width: 400px;
     }
     
-    .propos1 {
+    .footer-3 {
         border: solid red 4px;
-        width: 400px;
     }
