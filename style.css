@@ -68,10 +68,20 @@ li {
 .col {
     border: blue 4px solid;
     margin: 5px;
+    padding: 15px;
+}
+
+.kara2 {
+    background-color: rgb(204, 196, 211);
+    padding-right: 120px;
 }
 
 .btn-search {
-    border: solid goldenrod 2px;
+    padding: 20px;
+    background-color: #0065fc;
+    border-radius: 0 15px 15px 0;
+    font-size: 18px;
+    color: white;
 }
 
 .arondi {
