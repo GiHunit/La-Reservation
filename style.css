@@ -70,12 +70,29 @@ li {
     margin: 5px;
 }
 
+.btn-search {
+    border: solid goldenrod 2px;
+}
+
 .arondi {
     border: solid #cfcbcb 4px;
     border-radius: 25px;
     box-shadow: 5px 5px 15px 5px black;
     padding: 7px 18px 7px 78px;
     margin: 15px;
+    position: relative;
+}
+
+.fas fa-dog {
+    border: black solid 4px;
+    color: blueviolet;
+    position: absolute;
+    padding-left: 25px;
+}
+
+.logo5 {
+    display: flex;
+    justify-content: center;
 }
 
 .information {
@@ -213,24 +230,55 @@ li {
 
 /* activity */
 
-.ReserviaActivity {
+.reservia-activity {
     border: rgb(11, 96, 206) solid 5PX;
     display: flex;
-    width: 100%;
-    height: 600px;
+    background: red;
 }
 
-.villeActivity {
-    border: solid pink 4px;
-    width: 400px;
+.ville-activity {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.photoActivity {}
+.ville-activity-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.ville-activity .ville-activity-item:first-child {
+    background-color: blue;
+    padding-bottom: 50px;
+    flex-basis: 450px;
+}
+
+.ville-activity .ville-activity-item:last-child {
+    /* padding: 30px; */
+}
+
+.photo-activity {
+    flex: 1;
+}
+
+.photo-activity img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.lieu-activity {
+    border-color: blue;
+    background-color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 /* Foooter*/
 
-.contenu-footer {
+
+/* .contenu-footer {
     border: solid grey 6px;
     background-color: grey;
     margin-inline: -110px;
@@ -238,4 +286,4 @@ li {
 
 .bloc footer {
     display: flex;
-}
+} */
