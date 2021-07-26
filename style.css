@@ -43,6 +43,7 @@ li {
 .logo {
     display: flex;
     align-items: center;
+    padding: 25px;
 }
 
 .logo2 {
@@ -82,6 +83,18 @@ li {
     border-radius: 0 15px 15px 0;
     font-size: 18px;
     color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-search:hover {
+    background-color: #1360a8
+}
+
+.btn-search:active {
+    background-color: #053d7c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .arondi {
