@@ -44,6 +44,8 @@
         display: flex;
         align-items: center;
         padding: 25px;
+        background-color: rgba(128, 128, 128, 0.247);
+        border-radius: 15px 0 0 15px;
     }
     
     .logo2 {
@@ -64,25 +66,31 @@
     }
     
     .lien a {
-        color: blue;
+        color: rgb(15, 69, 219);
         text-decoration: none;
+        border-top: solid rgb(8, 79, 212) 2px;
     }
+    /* Button */
+    /* nav border TOP  */
     
     .col {
         font-size: 24px;
         list-style: none;
         display: flex;
         justify-content: center;
+        justify-content: space-around;
     }
     
     .col {
-        border: rgb(13, 236, 5) 4px solid;
+        border: rgb(239, 243, 238) 4px solid;
         margin: 5px;
         padding: 15px;
     }
     
+    .filtre {}
+    
     .kara2 {
-        background-color: rgb(204, 196, 211);
+        border: transparent;
         padding-right: 120px;
     }
     
@@ -107,9 +115,9 @@
     }
     
     .arondi {
-        border: solid #cfcbcb 4px;
+        border: solid #1101011c;
         border-radius: 25px;
-        box-shadow: 5px 5px 15px 5px black;
+        box-shadow: 5px 5px 15px 5px rgba(172, 169, 169, 0.212);
         padding: 7px 18px 7px 78px;
         margin: 15px;
         position: relative;
@@ -301,16 +309,16 @@
     
     .foot-container {
         background-color: rgba(144, 145, 236, 0.719);
-        width: 1600px;
+        width: 100%;
     }
     
     .footer {
         width: 100%;
+        display: flex;
+        justify-content: space-around;
     }
     
     .footer-heading {
-        display: flex;
-        flex-direction: column;
         margin-right: 4rem;
     }
     
