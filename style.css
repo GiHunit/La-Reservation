@@ -49,7 +49,7 @@
     }
     
     .logo2 {
-        border: rgb(158, 6, 6) solid 1px;
+        border: rgb(175, 172, 172) solid 1px;
         width: 40px;
         height: 40px;
         border-radius: 20px;
@@ -136,7 +136,7 @@
         /*   flex i + plus de 500 logements */
         height: 50px;
         width: 500px;
-        border: solid 2px rgb(110, 27, 27);
+        border: solid 2px rgb(238, 237, 237);
         display: flex;
     }
     /*  *************** SECTION    */
@@ -161,7 +161,7 @@
     .accommodation-container {
         display: flex;
         justify-content: space-between;
-        background-color: rgb(0, 255, 76);
+        background-color: rgb(235, 240, 237);
     }
     
     .last-accommodation-container {
@@ -265,10 +265,10 @@
     }
     
     .ville-activity {
-        padding: 20px;
+        padding: 10px;
         display: flex;
         flex-direction: column;
-        box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: 5px 5px 15px 5px #858383;
     }
     
     .ville-activity-item {
@@ -313,6 +313,11 @@
         width: 100%;
         display: flex;
         justify-content: space-around;
+        list-style-type: none;
+    }
+    
+    .ul li {
+        list-style-type: none;
     }
     
     .footer-heading {
@@ -325,6 +330,7 @@
     
     .footer-1 {
         border: rgb(52, 240, 5) solid 4px;
+        list-style: none;
     }
     
     .footer-2 {
