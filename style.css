@@ -82,12 +82,9 @@
     }
     
     .col {
-        border: rgb(239, 243, 238) 4px solid;
         margin: 5px;
         padding: 15px;
     }
-    
-    .filtre {}
     
     .kara2 {
         border: transparent;
@@ -169,7 +166,7 @@
     
     .last-accommodation-container {
         flex: 3;
-        background-color: #9e0505;
+        background-color: #ebe3e3;
         margin-right: 50px;
         border-radius: 20px;
         padding: 25px;
@@ -179,7 +176,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        background-color: hotpink;
+        background-color: rgb(245, 239, 242);
     }
     
     .item-last-accommodation {
@@ -200,7 +197,7 @@
         flex: 1;
         background-color: #ffffff;
         border-radius: 20px;
-        background: orangered;
+        background: rgb(240, 234, 231);
     }
     
     .popular-card {
@@ -263,15 +260,15 @@
     /* activity */
     
     .reservia-activity {
-        border: rgb(11, 96, 206) solid 5PX;
         display: flex;
-        background: red;
+        background: rgb(255, 253, 253);
     }
     
     .ville-activity {
         padding: 20px;
         display: flex;
         flex-direction: column;
+        box-shadow: 5px 5px 15px 5px #000000;
     }
     
     .ville-activity-item {
@@ -280,7 +277,7 @@
     }
     
     .ville-activity .ville-activity-item:first-child {
-        background-color: blue;
+        background-color: rgb(229, 229, 240);
         padding-bottom: 50px;
         flex-basis: 450px;
     }
