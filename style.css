@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    list-style: none;
 }
 
 body {
@@ -118,13 +119,79 @@ li {
 
 /* ********************************* Filtre Economique,familiale,animale,romantique ************ */
 
-.filtrecontainer {
-    width: 100%;
+.filtreContainer {
+    border: blueviolet solid 4px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.economie {
+.liste-filtre {
     display: flex;
-    justify-content: center;
+    flex: 6;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.liste-filtre li {
+    margin-right: 25px;
+    height: 50px;
+}
+
+.liste-filtre li:not(.sommaire) {
+    border: solid 2px #d9d9d9;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.liste-filtre li i {
+    border-radius: 50%;
+    padding: 15px;
+    background-color: #deebff;
+    height: 52px;
+    width: 52px;
+    margin-left: -10px;
+    margin-top: -3px;
+    color: blue;
+}
+
+.liste-filtre li span {
+    padding-right: 25px;
+    padding-left: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.filtreItem {
+    display: flex;
+    border: solid 2px rgb(3, 223, 51);
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    border-radius: 30px;
+    border-left-color: transparent;
+}
+
+.sommaire {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo77 {
+    display: flex;
+    align-items: center;
+    color: rgb(64, 135, 216);
+    padding-top: 5px;
+    border: solid 4px rgb(148, 203, 219);
+    padding: 25px;
+    width: 40px;
+    height: 40px;
+    background: rgb(84, 186, 194);
+    border-radius: 35px;
+    left: -22px;
+    background-color: rgba(14, 78, 255, 0.164);
 }
 
 .filtreliste {
@@ -132,21 +199,14 @@ li {
     color: blue;
 }
 
-.arondi {
-    border: solid #1101011c;
-    border-radius: 25px;
-    box-shadow: 5px 5px 15px 5px rgba(172, 169, 169, 0.212);
-    padding: 7px 18px 7px 78px;
-    margin: 15px;
-    position: relative;
+.filtretext {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 1rem;
 }
 
-.fas fa-dog {
-    border: black solid 4px;
-    color: blueviolet;
-    position: absolute;
-    padding-left: 25px;
-}
+
+/* ************************************************End Filtre ********************************************************** */
 
 .logo5 {
     display: flex;
@@ -389,3 +449,34 @@ li {
 .footer-3 {
     border: solid red 4px;
 }
+
+/* SI tes en dessous de 1380px max-width */
+@media screen and (max-width: 1380px) {
+    .liste-filtre li {
+        margin-bottom: 15px;
+    }
+    
+    .accommodation-container {
+        flex-wrap: wrap;
+    }
+    
+    .last-accommodation-container {
+        order: 2;
+        flex-basis: 100%;
+    }
+    
+    .popular-accommodation-container {
+        flex-basis: 100%;
+    }
+    
+    .popular-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .popular-card-item {
+        max-width: 320px;
+    }
+}
+@media screen and (max-width: 800px) {}
