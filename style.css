@@ -69,7 +69,11 @@ li {
 .lien a {
     color: rgb(15, 69, 219);
     text-decoration: none;
-    border-top: solid rgb(8, 79, 212) 2px;
+}
+
+a:hover {
+    border-top: solid rgb(7, 100, 240) 4px;
+    cursor: pointer;
 }
 
 
@@ -141,6 +145,13 @@ li {
     border: solid 2px #d9d9d9;
     border-radius: 25px;
     font-size: 18px;
+    transition: box-shadow 0.5s 0s ease;
+}
+
+.liste-filtre li {
+    transform: scale(1.1) rotate(0.2deg);
+    background-color: rgba(92, 93, 94, 0.151);
+    pborder cursor: pointer;
 }
 
 .liste-filtre li i {
@@ -248,12 +259,12 @@ li {
 .accommodation-container {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(235, 240, 237);
+    background-color: rgb(255, 255, 255);
 }
 
 .last-accommodation-container {
     flex: 3;
-    background-color: #ebe3e3;
+    background-color: #f2f2f2f2;
     margin-right: 50px;
     border-radius: 20px;
     padding: 25px;
@@ -263,15 +274,21 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(245, 239, 242);
 }
 
 .item-last-accommodation {
-    border: 10px solid white;
+    border: 6px solid rgb(228, 230, 227);
     border-radius: 25px;
     width: 350px;
     margin-bottom: 20px;
     background-color: lavender;
+    transition: transform .5s;
+}
+
+.item-last-accommodation:hover {
+    transform: scale(1.1) rotate(0.2deg);
+    background-color: rgba(92, 93, 94, 0.151);
+    pborder cursor: pointer;
 }
 
 .item-last-accommodation img {
@@ -280,11 +297,15 @@ li {
     object-fit: cover;
 }
 
+.item-last-accommodation {
+    /*effet zoom*/
+}
+
 .popular-accommodation-container {
     flex: 1;
     background-color: #ffffff;
     border-radius: 20px;
-    background: rgb(240, 234, 231);
+    background: #f2f2f2f2;
 }
 
 .popular-card {
@@ -307,6 +328,13 @@ li {
     border-radius: 25px;
     padding: 10px;
     margin-bottom: 20px;
+}
+
+.popular-card-item:hover {
+    /*effet zoom*/
+    transform: scale(1.1) rotate(0.2deg);
+    background-color: rgba(92, 93, 94, 0.151);
+    cursor: pointer;
 }
 
 .popular-card-img {
@@ -350,7 +378,7 @@ li {
 
 .reservia-activity {
     display: flex;
-    background: rgb(255, 253, 253);
+    background: #f2f2f2f2;
 }
 
 .ville-activity {
@@ -421,8 +449,9 @@ li {
 
 /* *******************************************************  FOOTER  ************************************************* */
 .foot-container {
-    background-color: rgba(144, 145, 236, 0.719);
+    background-color: #f2f2f2f2;
     width: 100%;
+    margin-left: -50px;
 }
 .footer {
     width: 100%;
