@@ -71,7 +71,7 @@ li {
     text-decoration: none;
 }
 
-a:hover {
+.lien a:hover {
     border-top: solid rgb(7, 100, 240) 4px;
     cursor: pointer;
 }
@@ -122,6 +122,14 @@ a:hover {
 
 
 /* ********************************* Filtre Economique,familiale,animale,romantique ************ */
+
+.touch {
+    cursor: pointer;
+}
+
+.touch:hover {
+    background-color: rgba(33, 106, 241, 0.438);
+}
 
 .filtreContainer {
     display: flex;
@@ -228,7 +236,6 @@ a:hover {
     /*   flex i + plus de 500 logements */
     height: 50px;
     width: 500px;
-    border: solid 2px rgb(238, 237, 237);
     display: flex;
 }
 
@@ -389,10 +396,11 @@ a:hover {
     /*  box-shadow: 5px 5px 15px 5px #858383; */
 }
 
-.ville-activity:hover {
+
+/* .ville-activity:hover {
     transform: scale(1.2);
     position: relative;
-}
+} */
 
 .ville-activity-item {
     display: flex;
@@ -427,39 +435,15 @@ a:hover {
 }
 
 
-/* ******************************************************Grid **************************************************************** */
-
-.activityGrid {
-    width: 100%;
-    max-width: 120rem;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 25% 25% 25% 25%;
-}
-
-.activityGrid img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-}
-.foto1 {
-    grid-row-start: 1;
-    grid-row-end: span 3;
-}
-.foto2 {
-    grid-row: 1/2;
-}
-
 /* *******************************************************  FOOTER  ************************************************* */
+
 .foot-container {
     background-color: #f2f2f2f2;
     width: 0 100%;
     margin-left: -50px;
     text-decoration: none;
 }
+
 .footer {
     width: 0 100%;
     display: flex;
@@ -467,55 +451,64 @@ a:hover {
     list-style-type: none;
     text-decoration: none;
 }
+
 .ul li {
     list-style-type: none;
 }
+
 .footer-heading {
     margin-right: 4rem;
 }
+
 .footer-heading h3 {
     font-size: 18px;
 }
+
+.footer a {
+    text-decoration: none;
+}
+
 .footer-1 {
     transform: scale(1.1);
     border cursor: pointer;
 }
+
 .footer-2 {
     text-decoration: none;
 }
+
 .footer-3 {}
+
 .footer-heading footer-3 li a {
     text-decoration: none;
     font-size: 50px;
 }
 
+
 /* SI tes en dessous de 1380px max-width */
+
 @media screen and (max-width: 1380px) {
     .liste-filtre li {
         margin-bottom: 15px;
     }
-    
     .accommodation-container {
         flex-wrap: wrap;
     }
-    
     .last-accommodation-container {
         order: 2;
         flex-basis: 100%;
     }
-    
     .popular-accommodation-container {
         flex-basis: 100%;
     }
-    
     .popular-card {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    
     .popular-card-item {
         max-width: 320px;
     }
 }
+
 @media screen and (max-width: 800px) {}
