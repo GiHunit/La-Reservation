@@ -576,12 +576,16 @@
             display: flex;
             flex-direction: column;
         }
+        ul.liste-filtre {
+            justify-content: start;
+        }
         .btn-search {
             display: none;
         }
         .touch-search {
             display: inline;
+            padding: 25px;
+            border-radius: 15px;
             background-color: #0065fc;
-            );
         }
     }
