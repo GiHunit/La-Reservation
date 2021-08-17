@@ -343,17 +343,14 @@
         background-color: #ffffff;
         border-radius: 20px;
         background: #f2f2f2f2;
-    }
-    
-    .popular-card {
-        padding: 20px;
+        padding: 25px;
     }
     
     .popular-title {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 25px;
+        padding-bottom: 25px;
     }
     
     .popular-card-item {
@@ -417,7 +414,8 @@
         justify-content: space-around;
     }
     
-    .ville-activity {
+    .ville-activity,
+    .ville-activity-double {
         /* box-shadow: 5px 5px 15px 5px #858383; */
         display: flex;
         flex-direction: column;
@@ -538,6 +536,30 @@
         .item-last-accommodation {
             width: 50%;
         }
+        .card-activity-container {
+            flex-direction: column;
+        }
+        .ville-activity-double {
+            height: auto;
+        }
+        .ville-activity-item:first-child {
+            margin-bottom: 40px;
+        }
+        .ville-activity-item:first-child,
+        .ville-activity-item:last-child,
+        .ville-activity {
+            height: 300px;
+        }
+        .ville-activity-item:first-child .img-activity-container,
+        .ville-activity-item:last-child .img-activity-container,
+        .img-activity-container {
+            height: 230px;
+        }
+        .ville-activity-item:first-child .lieu-activity,
+        .ville-activity-item:last-child .lieu-activity,
+        .lieu-activity {
+            height: 70px;
+        }
     }
     
     @media screen and (max-width: 900px) {
@@ -558,16 +580,10 @@
         nav ul li:nth-child(2) {
             order: 3;
         }
-        .ville-activity-item,
-        .ville-activity-item:first-child,
-        .ville-activity-item:last-child {
-            /* height: 240px; */
-        }
-        .ville-activity {
-            height: auto;
-        }
-        .lieu-activity {
-            /* height: 50px; */
+        .header-container,
+        .popular-accommodation-container,
+        .popular-accommodation-container {
+            padding: 20px;
         }
     }
     
@@ -577,14 +593,14 @@
             flex-direction: column;
         }
         ul.liste-filtre {
-            justify-content: start;
+            align-items: flex-start;
         }
         .btn-search {
             display: none;
         }
         .touch-search {
             display: inline;
-            padding: 25px;
+            padding: 23px;
             border-radius: 15px;
             background-color: #0065fc;
         }
