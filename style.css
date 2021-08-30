@@ -333,7 +333,7 @@ HEBERGEMENT
 }
 
 .item-last-accommodation:hover {
-    transform: scale(1.2) rotate(0.2deg);
+    transform: scale(1.04) rotate(0.2deg);
     background-color: rgba(92, 93, 94, 0.151);
     cursor: pointer;
 }
@@ -447,7 +447,7 @@ h2 {
 }
 
 .ville-activity:hover {
-    transform: scale(1.1) rotate(0.1deg);
+    transform: scale(1.04) rotate(0.1deg);
 }
 
 .ville-activity-item {
@@ -464,13 +464,15 @@ h2 {
 }
 
 .ville-activity-item:first-child:hover {
-    transform: scale(1.1) rotate(0.1deg);
+    transform: scale(1.04) rotate(0.1deg);
 }
 
 .ville-activity-item:last-child {
     height: 40%;
 }
-
+.ville-activity-item:last-child:hover{
+    transform:scale(1.04) rotate(0.1deg);
+}
 .ville-activity-item:first-child .img-activity-container {
     height: 82%;
 }
